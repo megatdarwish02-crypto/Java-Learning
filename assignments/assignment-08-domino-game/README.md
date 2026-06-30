@@ -1,41 +1,33 @@
-# Domino Game
+# Assignment 08 — Domino Game
 
 ## Overview
 
-This assignment is part of my COMP102 Java learning journey at Victoria University of Wellington. The goal of this folder is not only to store the final code, but to document the problem I worked on, the Java concepts involved, and what the assignment helped me understand.
+This assignment was one of the most complete Java projects in COMP102. It involved building an interactive domino game using arrays, ArrayLists, objects, rules, mouse interaction, and graphical display.
 
-**Main focus:** Domino game using arrays, ArrayLists, and object state
+## What I Built
 
-## Projects Included
+- Domino class
+- Domino hand using an array
+- Domino table using an ArrayList
+- Rule-based placement
+- Mouse selection and placement
+- Challenge features such as suggestions and dragging
 
-- `DominoGame`
+## My Approach
 
-## Skills Practised
+I separated the domino itself from the game controller. The `Domino` class stores and draws individual dominoes, while the game class manages the hand, table, selected position, placement rules, and user interaction. Arrays were useful for the fixed-size hand, while an ArrayList worked better for the table because it changes size during the game.
 
-- Arrays
-- ArrayLists
-- Objects
-- Game rules
-- Selection and state management
+## Key Takeaways
 
-## How I Want This Assignment To Be Read
+- Arrays and ArrayLists are useful in different situations.
+- Object-oriented design helps separate game pieces from game logic.
+- Interactive games require careful tracking of state, rules, and user input.
 
-The source code is the evidence, but the learning is the main point. When reviewing this assignment, I want to focus on:
+## Looking Back
 
-1. What problem the program was solving.
-2. How I broke the problem into smaller Java methods/classes.
-3. What programming concept became clearer through the assignment.
-4. What I would improve if I rewrote it today.
+If I revisited this assignment today, I would:
 
-## My Reflection
-
-This assignment represents one stage of my transition from writing small pieces of code to thinking more like a programmer. At this stage, I was learning how to translate a written problem into variables, methods, conditions, loops, and objects.
-
-The most useful part was not just getting the code to run, but learning how to organise the logic so that the program matched the problem step by step.
-
-## Future Improvements
-
-- Improve variable naming and consistency.
-- Add clearer comments only where they explain reasoning, not obvious code.
-- Separate repeated logic into helper methods where possible.
-- Add a short screenshot or example output for each project.
+- Separate rule checking into its own helper methods or class.
+- Remove practice/test code from the final project folder.
+- Improve naming consistency in the `Domino` class.
+- Add clearer comments for the challenge features.

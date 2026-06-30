@@ -1,42 +1,31 @@
-# Methods And Key Validation
+# Assignment 02 — Parameterised Shapes & Key Validator
 
 ## Overview
 
-This assignment is part of my COMP102 Java learning journey at Victoria University of Wellington. The goal of this folder is not only to store the final code, but to document the problem I worked on, the Java concepts involved, and what the assignment helped me understand.
+This assignment continued from the graphics work in Assignment 1, but the main focus shifted toward **methods, parameters, and reusable code**. It included a shape-drawing program and a key validation program.
 
-**Main focus:** Reusable drawing methods and string validation logic
+## What I Built
 
-## Projects Included
+- Parameterised Shapes
+- Key Validator Core
+- Key Validator Completion
+- Key Validator Challenge
 
-- `ParameterisedShapes`
-- `KeyValidator`
+## My Approach
 
-## Skills Practised
+For Parameterised Shapes, I reused drawing logic by creating methods that accepted values such as position, size, colour, and fill options. For Key Validator, I approached the task by checking one validation rule at a time instead of trying to validate the whole key in one large condition.
 
-- Parameters
-- Helper methods
-- Boolean logic
-- String methods
-- Characters and loops
+## Key Takeaways
 
-## How I Want This Assignment To Be Read
+- Parameters make code reusable instead of repeating similar instructions.
+- Validation problems are easier when each rule is checked separately.
+- Method design matters because it affects how easy the program is to extend.
 
-The source code is the evidence, but the learning is the main point. When reviewing this assignment, I want to focus on:
+## Looking Back
 
-1. What problem the program was solving.
-2. How I broke the problem into smaller Java methods/classes.
-3. What programming concept became clearer through the assignment.
-4. What I would improve if I rewrote it today.
+If I revisited this assignment today, I would:
 
-## My Reflection
-
-This assignment represents one stage of my transition from writing small pieces of code to thinking more like a programmer. At this stage, I was learning how to translate a written problem into variables, methods, conditions, loops, and objects.
-
-The most useful part was not just getting the code to run, but learning how to organise the logic so that the program matched the problem step by step.
-
-## Future Improvements
-
-- Improve variable naming and consistency.
-- Add clearer comments only where they explain reasoning, not obvious code.
-- Separate repeated logic into helper methods where possible.
-- Add a short screenshot or example output for each project.
+- Use clearer method names.
+- Remove duplicate drawing logic.
+- Break complex validation checks into smaller helper methods.
+- Add more test cases for invalid keys.

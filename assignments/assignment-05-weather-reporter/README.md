@@ -1,41 +1,31 @@
-# Weather Reporter
+# Assignment 05 — Weather Reporter
 
 ## Overview
 
-This assignment is part of my COMP102 Java learning journey at Victoria University of Wellington. The goal of this folder is not only to store the final code, but to document the problem I worked on, the Java concepts involved, and what the assignment helped me understand.
+This assignment focused on reading and visualising weather data. The program processes weather files, plots temperature information, reports station data, and displays weather values on a map of New Zealand.
 
-**Main focus:** Reading weather data and displaying meaningful information
+## What I Built
 
-## Projects Included
+- Temperature plotting
+- Weather snapshot display
+- Animated temperature view
+- Station weather report
 
-- `WeatherReporter`
+## My Approach
 
-## Skills Practised
+I treated the weather files as structured data. The program reads the file using a `Scanner`, extracts station and temperature information, then uses that data either for calculations or graphical display. I separated the main tasks into different methods so each feature had a clear purpose.
 
-- File I/O
-- Parsing structured text
-- Maps/data lookup
-- Conditionals
-- Data summarisation
+## Key Takeaways
 
-## How I Want This Assignment To Be Read
+- Real programs often depend on external data files.
+- File processing becomes easier when the data format is understood first.
+- Visualising data helps make raw numbers easier to interpret.
 
-The source code is the evidence, but the learning is the main point. When reviewing this assignment, I want to focus on:
+## Looking Back
 
-1. What problem the program was solving.
-2. How I broke the problem into smaller Java methods/classes.
-3. What programming concept became clearer through the assignment.
-4. What I would improve if I rewrote it today.
+If I revisited this assignment today, I would:
 
-## My Reflection
-
-This assignment represents one stage of my transition from writing small pieces of code to thinking more like a programmer. At this stage, I was learning how to translate a written problem into variables, methods, conditions, loops, and objects.
-
-The most useful part was not just getting the code to run, but learning how to organise the logic so that the program matched the problem step by step.
-
-## Future Improvements
-
-- Improve variable naming and consistency.
-- Add clearer comments only where they explain reasoning, not obvious code.
-- Separate repeated logic into helper methods where possible.
-- Add a short screenshot or example output for each project.
+- Add stronger handling for malformed data.
+- Separate file reading from display logic more clearly.
+- Use better data structures to store station information.
+- Add screenshots of the map and plotted temperature output.

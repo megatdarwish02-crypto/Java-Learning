@@ -1,41 +1,32 @@
-# Frog Snake Game
+# Assignment 06 — Frog Snake Game
 
 ## Overview
 
-This assignment is part of my COMP102 Java learning journey at Victoria University of Wellington. The goal of this folder is not only to store the final code, but to document the problem I worked on, the Java concepts involved, and what the assignment helped me understand.
+This assignment moved from individual programs into a small interactive game. The program uses separate classes for frogs, snakes, and game logic, introducing a more object-oriented way of building software.
 
-**Main focus:** Object-oriented game logic with interacting classes
+## What I Built
 
-## Projects Included
+- Frog movement and growth logic
+- Snake movement logic
+- Bug collection game
+- Two-player interaction
+- Frog Snake Game extension
 
-- `FrogSnakeGame`
+## My Approach
 
-## Skills Practised
+I used separate classes to represent different parts of the game. The `Frog` class handled frog behaviour, the `Snake` class handled snake behaviour, and the game class managed the overall state, keyboard input, redrawing, and bug placement.
 
-- Multiple classes
-- Object interaction
-- Fields and state
-- Game loops
-- Encapsulation
+## Key Takeaways
 
-## How I Want This Assignment To Be Read
+- Classes make larger programs easier to organise.
+- Interactive programs require keeping track of changing state.
+- Separating objects from game control logic makes the program easier to understand.
 
-The source code is the evidence, but the learning is the main point. When reviewing this assignment, I want to focus on:
+## Looking Back
 
-1. What problem the program was solving.
-2. How I broke the problem into smaller Java methods/classes.
-3. What programming concept became clearer through the assignment.
-4. What I would improve if I rewrote it today.
+If I revisited this assignment today, I would:
 
-## My Reflection
-
-This assignment represents one stage of my transition from writing small pieces of code to thinking more like a programmer. At this stage, I was learning how to translate a written problem into variables, methods, conditions, loops, and objects.
-
-The most useful part was not just getting the code to run, but learning how to organise the logic so that the program matched the problem step by step.
-
-## Future Improvements
-
-- Improve variable naming and consistency.
-- Add clearer comments only where they explain reasoning, not obvious code.
-- Separate repeated logic into helper methods where possible.
-- Add a short screenshot or example output for each project.
+- Clean up repeated redraw logic.
+- Improve collision handling.
+- Use constants more consistently for game settings.
+- Separate game rules from drawing code more clearly.
