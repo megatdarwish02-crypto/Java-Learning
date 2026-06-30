@@ -1,42 +1,37 @@
-# Flags And Shipping
+# Assignment 01 — Shipping Calculator & Flag Drawer
 
 ## Overview
 
-This assignment is part of my COMP102 Java learning journey at Victoria University of Wellington. The goal of this folder is not only to store the final code, but to document the problem I worked on, the Java concepts involved, and what the assignment helped me understand.
+This assignment introduced two different programming tasks: a text-based shipping calculator and a graphics-based flag drawer.
 
-**Main focus:** Drawing with coordinates and calculating shipping costs
+The Shipping Calculator models a pricing system using package dimensions, weight, shipping zones, handling fees, and quantity discounts. The Flag Drawer recreates several flags using Java graphics and proportional measurements.
 
-## Projects Included
+## What I Built
 
-- `FlagDrawer`
-- `ShippingCalculator`
+- Shipping Calculator — Core
+- Shipping Calculator — Completion
+- Shipping Calculator — Challenge
+- Flag Drawer
 
-## Skills Practised
+## My Approach
 
-- Variables and constants
-- User input
-- Arithmetic formulas
-- Basic method structure
-- Drawing using coordinates
+For the Shipping Calculator, I broke the pricing model into smaller calculations before combining them into the final cost. This made the formula easier to understand, test, and debug.
 
-## How I Want This Assignment To Be Read
+For the Flag Drawer, I used proportional measurements instead of relying only on fixed coordinates. This allowed the drawings to scale based on the width entered by the user while keeping the flag designs visually consistent.
 
-The source code is the evidence, but the learning is the main point. When reviewing this assignment, I want to focus on:
+## Key Takeaways
 
-1. What problem the program was solving.
-2. How I broke the problem into smaller Java methods/classes.
-3. What programming concept became clearer through the assignment.
-4. What I would improve if I rewrote it today.
+- Breaking a problem into smaller parts makes the code easier to manage.
+- Calculations are easier to debug when each part of the formula is separated clearly.
+- Graphics programming is strongly connected to coordinates, ratios, and proportions.
+- Using proportions makes drawings more flexible than hard-coded pixel values.
 
-## My Reflection
+## Looking Back
 
-This assignment represents one stage of my transition from writing small pieces of code to thinking more like a programmer. At this stage, I was learning how to translate a written problem into variables, methods, conditions, loops, and objects.
+If I revisited this assignment today, I would:
 
-The most useful part was not just getting the code to run, but learning how to organise the logic so that the program matched the problem step by step.
-
-## Future Improvements
-
-- Improve variable naming and consistency.
-- Add clearer comments only where they explain reasoning, not obvious code.
-- Separate repeated logic into helper methods where possible.
-- Add a short screenshot or example output for each project.
+- Improve variable naming consistency.
+- Extract repeated calculations into helper methods.
+- Add validation for invalid user input.
+- Separate calculation logic from user interaction.
+- Add screenshots of the graphical output.
